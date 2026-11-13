@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "chest": "myas_ender_storage:block/ender_chest",
+    "buttons": "myas_ender_storage:block/buttons",
+    "particle": "minecraft:block/obsidian"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        14,
+        6
+      ],
+      "to": [
+        9,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.5,
+            7.0,
+            6.5,
+            7.5
+          ],
+          "texture": "#buttons"
+        },
+        "east": {
+          "uv": [
+            6.5,
+            5.0,
+            7.0,
+            7.0
+          ],
+          "texture": "#buttons"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            4.5,
+            6.5,
+            5.0
+          ],
+          "texture": "#buttons"
+        },
+        "west": {
+          "uv": [
+            5.0,
+            5.0,
+            5.5,
+            7.0
+          ],
+          "texture": "#buttons"
+        },
+        "up": {
+          "uv": [
+            5.5,
+            5.0,
+            6.5,
+            7.0
+          ],
+          "texture": "#buttons"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            5.0,
+            6.5,
+            7.0
+          ],
+          "texture": "#buttons"
+        }
+      }
+    }
+  ]
+}

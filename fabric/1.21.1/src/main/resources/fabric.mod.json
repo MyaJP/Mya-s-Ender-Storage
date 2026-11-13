@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "myas_ender_storage",
+  "version": "${version}",
+  "name": "Mya's Ender Storage",
+  "description": "Color-coded ender chests and pouches that share their contents anywhere. A Fabric fork of EnderStorage by covers1624, ChickenBones and Ecu.",
+  "authors": ["Mya"],
+  "contributors": ["covers1624, ChickenBones, Ecu - original EnderStorage"],
+  "contact": { "homepage": "https://www.curseforge.com/members/mya_jp" },
+  "license": "MIT",
+  "icon": "myas_ender_storage.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["jp.mya.myasenderstorage.MyasEnderStorage"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_min}",
+    "minecraft": "${mc}",
+    "java": ">=${java}",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLB",
+    "LPL",
+    "BWB"
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "L": "minecraft:leather",
+    "P": "minecraft:ender_pearl",
+    "W": "#minecraft:wool"
+  },
+  "result": {
+    "id": "myas_ender_storage:ender_pouch",
+    "count": 1
+  }
+}

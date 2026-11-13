@@ -1,0 +1,146 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "chest": "myas_ender_storage:block/ender_chest",
+    "buttons": "myas_ender_storage:block/buttons",
+    "particle": "minecraft:block/obsidian"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            8.5,
+            7.0,
+            10.75
+          ],
+          "texture": "#chest"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            8.5,
+            3.5,
+            10.75
+          ],
+          "texture": "#chest"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            8.5,
+            14.0,
+            10.75
+          ],
+          "texture": "#chest"
+        },
+        "west": {
+          "uv": [
+            7.0,
+            8.5,
+            10.5,
+            10.75
+          ],
+          "texture": "#chest"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            4.75,
+            7.0,
+            8.25
+          ],
+          "texture": "#chest"
+        },
+        "down": {
+          "uv": [
+            7.0,
+            4.75,
+            10.5,
+            8.25
+          ],
+          "texture": "#chest"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        9,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            3.5,
+            7.0,
+            4.75
+          ],
+          "texture": "#chest"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            3.5,
+            3.5,
+            4.75
+          ],
+          "texture": "#chest"
+        },
+        "south": {
+          "uv": [
+            10.5,
+            3.5,
+            14.0,
+            4.75
+          ],
+          "texture": "#chest"
+        },
+        "west": {
+          "uv": [
+            7.0,
+            3.5,
+            10.5,
+            4.75
+          ],
+          "texture": "#chest"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0.0,
+            7.0,
+            3.5
+          ],
+          "texture": "#chest"
+        },
+        "down": {
+          "uv": [
+            7.0,
+            0.0,
+            10.5,
+            3.5
+          ],
+          "texture": "#chest"
+        }
+      }
+    }
+  ]
+}

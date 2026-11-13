@@ -7,7 +7,11 @@ A Fabric fork of [EnderStorage](https://github.com/TheCBProject/EnderStorage) by
 |--------|----------------------------------|------------|
 | Fabric | 1.21.1 – 1.21.11, 26.1 – 26.3    | Fabric API |
 
-`jars/` holds the release jars and `VERSION` the mod version. Running the Publish workflow uploads them to CurseForge.
+- `fabric/<mc>/`: one small Gradle project per Minecraft version (`./gradlew -p 26.3 build` inside `fabric/`)
+- `VERSION`: the mod version for every build
+- `jars/`: the release jars; the Publish workflow uploads them to CurseForge
+
+GitHub Actions builds every version on each push.
 
 ---
 

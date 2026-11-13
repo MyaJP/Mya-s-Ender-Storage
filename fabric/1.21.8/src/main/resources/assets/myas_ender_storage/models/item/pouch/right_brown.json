@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "myas_ender_storage:item/pouch/buttons/right/brown"
+  }
+}

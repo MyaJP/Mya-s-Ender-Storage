@@ -1,0 +1,1989 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_base"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "personal": "false"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "personal": "true"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock_personal"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_white"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_orange"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_magenta"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_yellow"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_lime"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_pink"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_cyan"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_purple"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_brown"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_green"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_red"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color1": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_black"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_white"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_orange"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_magenta"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_yellow"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_lime"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_pink"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_cyan"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_purple"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_brown"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_green"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_red"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color2": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_black"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_white"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_orange"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_magenta"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_yellow"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_lime"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_pink"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_gray"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_cyan"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_purple"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_blue"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_brown"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_green"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_red"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "color3": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_black"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "personal": "false"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "personal": "true"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock_personal",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_white",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_orange",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_magenta",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_yellow",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_lime",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_pink",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_cyan",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_purple",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_brown",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_green",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_red",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color1": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_black",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_white",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_orange",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_magenta",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_yellow",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_lime",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_pink",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_cyan",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_purple",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_brown",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_green",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_red",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color2": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_black",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_white",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_orange",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_magenta",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_yellow",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_lime",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_pink",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_gray",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_cyan",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_purple",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_blue",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_brown",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_green",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_red",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "color3": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_black",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "personal": "false"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "personal": "true"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock_personal",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_white",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_orange",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_magenta",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_yellow",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_lime",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_pink",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_cyan",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_purple",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_brown",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_green",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_red",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color1": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_black",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_white",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_orange",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_magenta",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_yellow",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_lime",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_pink",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_cyan",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_purple",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_brown",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_green",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_red",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color2": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_black",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_white",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_orange",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_magenta",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_yellow",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_lime",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_pink",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_gray",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_cyan",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_purple",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_blue",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_brown",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_green",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_red",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "color3": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_black",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "personal": "false"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "personal": "true"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/ender_chest_lock_personal",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_white",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_orange",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_magenta",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_yellow",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_lime",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_pink",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_light_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_cyan",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_purple",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_brown",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_green",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_red",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color1": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad1_black",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_white",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_orange",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_magenta",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_yellow",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_lime",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_pink",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_light_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_cyan",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_purple",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_brown",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_green",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_red",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color2": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad2_black",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "white"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_white",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "orange"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_orange",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "magenta"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_magenta",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "light_blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "yellow"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_yellow",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "lime"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_lime",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "pink"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_pink",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "light_gray"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_light_gray",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "cyan"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_cyan",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "purple"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_purple",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "blue"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_blue",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "brown"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_brown",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "green"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_green",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "red"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_red",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "color3": "black"
+      },
+      "apply": {
+        "model": "myas_ender_storage:block/pads/pad3_black",
+        "y": 270
+      }
+    }
+  ]
+}
