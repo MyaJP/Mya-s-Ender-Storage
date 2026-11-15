@@ -1,6 +1,6 @@
 # Mya's Ender Storage (Fork)
 
-Color-coded ender chests and pouches that share their contents anywhere.
+Color-coded ender chests, tanks and pouches that share their contents anywhere.
 A Fabric fork of [EnderStorage](https://github.com/TheCBProject/EnderStorage) by covers1624, ChickenBones and Ecu, rewritten for Fabric on Minecraft 1.21.1 – 26.3.
 
 | Loader | Minecraft                        | Needs      |
@@ -15,7 +15,7 @@ GitHub Actions builds every version on each push.
 
 ---
 
-色の組み合わせで中身を共有できるエンダーチェストとエンダーポーチ。EnderStorage（covers1624・ChickenBones・Ecu）のFabric向けフォーク版です。Fabric API が必要です。
+色の組み合わせで中身を共有できるエンダーチェスト・エンダータンク・エンダーポーチ。EnderStorage（covers1624・ChickenBones・Ecu）のFabric向けフォーク版です。Fabric API が必要です。
 
 ## License
 
