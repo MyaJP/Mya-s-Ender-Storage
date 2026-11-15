@@ -15,6 +15,8 @@ import net.fabricmc.fabric.api.transfer.v1.transaction.Transaction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -85,10 +87,10 @@ public class EnderTankBlock extends Block {
             level.setBlock(pos, state.setValue(PUMP, on), 3);
             level.playSound(null, pos, SoundEvents.LEVER_CLICK, SoundSource.BLOCKS, 0.4F, on ? 0.6F : 0.5F);
             if (on) level.scheduleTick(pos, this, PUMP_INTERVAL);
-            player.displayClientMessage(Component.translatable(on ? "myas_ender_storage.tank.pump_on" : "myas_ender_storage.tank.pump_off"), true);
+            actionBar(player, Component.translatable(on ? "myas_ender_storage.tank.pump_on" : "myas_ender_storage.tank.pump_off"));
         } else {
             Storage<FluidVariant> tank = tankFor(level, state, player.getUUID());
-            if (tank != null) player.displayClientMessage(describe(tank, Frequency.of(state)), true);
+            if (tank != null) actionBar(player, describe(tank, Frequency.of(state)));
         }
         return InteractionResult.SUCCESS;
     }
@@ -105,6 +107,11 @@ public class EnderTankBlock extends Block {
         try (Transaction tx = Transaction.openOuter()) {
             if (StorageUtil.move(tank, below, v -> true, PUMP_AMOUNT, tx) > 0) tx.commit();
         }
+    }
+
+    /** 画面中央下（アクションバー）に一言出す */
+    private static void actionBar(Player player, Component message) {
+        if (player instanceof ServerPlayer serverPlayer) serverPlayer.connection.send(new ClientboundSetActionBarTextPacket(message));
     }
 
     /** その色のタンク（個人用は player が null だと取れない） */
