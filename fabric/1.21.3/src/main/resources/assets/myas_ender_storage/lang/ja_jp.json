@@ -2,5 +2,10 @@
   "block.myas_ender_storage.ender_chest": "エンダーチェスト",
   "item.myas_ender_storage.ender_pouch": "エンダーポーチ",
   "container.myas_ender_storage": "エンダーストレージ",
-  "myas_ender_storage.personal": "[個人用]"
+  "myas_ender_storage.personal": "[個人用]",
+  "block.myas_ender_storage.ender_tank": "エンダータンク",
+  "myas_ender_storage.tank.empty": "空",
+  "myas_ender_storage.tank.contents": "%s：%s %s / %s mB",
+  "myas_ender_storage.tank.pump_on": "自動排出：オン（真下のブロックへ）",
+  "myas_ender_storage.tank.pump_off": "自動排出：オフ"
 }

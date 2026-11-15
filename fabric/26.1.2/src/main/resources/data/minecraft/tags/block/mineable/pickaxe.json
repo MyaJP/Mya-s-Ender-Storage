@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "myas_ender_storage:ender_chest"
+    "myas_ender_storage:ender_chest",
+    "myas_ender_storage:ender_tank"
   ]
 }

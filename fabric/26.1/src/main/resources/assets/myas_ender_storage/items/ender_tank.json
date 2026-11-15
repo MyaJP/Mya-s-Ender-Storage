@@ -1,0 +1,398 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "myas_ender_storage:block/ender_tank_base"
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:block_state",
+        "block_state_property": "personal",
+        "cases": [
+          {
+            "when": "true",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/ender_tank_valve_personal"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "myas_ender_storage:block/ender_tank_valve"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:block_state",
+        "block_state_property": "color1",
+        "cases": [
+          {
+            "when": "white",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_white"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_orange"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_magenta"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_light_blue"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_yellow"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_lime"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_pink"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_gray"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_light_gray"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_cyan"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_purple"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_blue"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_brown"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_green"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_red"
+            }
+          },
+          {
+            "when": "black",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad1_black"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "myas_ender_storage:block/pads/pad1_white"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:block_state",
+        "block_state_property": "color2",
+        "cases": [
+          {
+            "when": "white",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_white"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_orange"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_magenta"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_light_blue"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_yellow"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_lime"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_pink"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_gray"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_light_gray"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_cyan"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_purple"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_blue"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_brown"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_green"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_red"
+            }
+          },
+          {
+            "when": "black",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad2_black"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "myas_ender_storage:block/pads/pad2_white"
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:block_state",
+        "block_state_property": "color3",
+        "cases": [
+          {
+            "when": "white",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_white"
+            }
+          },
+          {
+            "when": "orange",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_orange"
+            }
+          },
+          {
+            "when": "magenta",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_magenta"
+            }
+          },
+          {
+            "when": "light_blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_light_blue"
+            }
+          },
+          {
+            "when": "yellow",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_yellow"
+            }
+          },
+          {
+            "when": "lime",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_lime"
+            }
+          },
+          {
+            "when": "pink",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_pink"
+            }
+          },
+          {
+            "when": "gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_gray"
+            }
+          },
+          {
+            "when": "light_gray",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_light_gray"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_cyan"
+            }
+          },
+          {
+            "when": "purple",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_purple"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_blue"
+            }
+          },
+          {
+            "when": "brown",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_brown"
+            }
+          },
+          {
+            "when": "green",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_green"
+            }
+          },
+          {
+            "when": "red",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_red"
+            }
+          },
+          {
+            "when": "black",
+            "model": {
+              "type": "minecraft:model",
+              "model": "myas_ender_storage:block/pads/pad3_black"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "myas_ender_storage:block/pads/pad3_white"
+        }
+      }
+    ]
+  }
+}

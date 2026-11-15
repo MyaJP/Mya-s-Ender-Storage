@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "myas_ender_storage:ender_tank",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "myas_ender_storage:ender_tank",
+              "properties": [
+                "color1",
+                "color2",
+                "color3",
+                "personal"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

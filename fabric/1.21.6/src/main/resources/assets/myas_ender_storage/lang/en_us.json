@@ -2,5 +2,10 @@
   "block.myas_ender_storage.ender_chest": "Ender Chest",
   "item.myas_ender_storage.ender_pouch": "Ender Pouch",
   "container.myas_ender_storage": "Ender Storage",
-  "myas_ender_storage.personal": "[Personal]"
+  "myas_ender_storage.personal": "[Personal]",
+  "block.myas_ender_storage.ender_tank": "Ender Tank",
+  "myas_ender_storage.tank.empty": "Empty",
+  "myas_ender_storage.tank.contents": "%s: %s %s / %s mB",
+  "myas_ender_storage.tank.pump_on": "Auto output: ON (into the block below)",
+  "myas_ender_storage.tank.pump_off": "Auto output: OFF"
 }

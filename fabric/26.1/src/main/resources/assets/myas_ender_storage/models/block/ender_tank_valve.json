@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tank": "myas_ender_storage:block/ender_tank",
+    "particle": "minecraft:block/obsidian"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        4.5,
+        2.5
+      ],
+      "to": [
+        10,
+        8.5,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.75,
+            0.5,
+            3.25,
+            3.0
+          ],
+          "texture": "#tank"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            3.5,
+            3.25,
+            4.0
+          ],
+          "texture": "#tank"
+        },
+        "south": {
+          "uv": [
+            0.75,
+            3.5,
+            3.25,
+            4.0
+          ],
+          "texture": "#tank"
+        },
+        "west": {
+          "uv": [
+            0.75,
+            3.5,
+            3.25,
+            4.0
+          ],
+          "texture": "#tank"
+        },
+        "up": {
+          "uv": [
+            0.75,
+            3.5,
+            3.25,
+            4.0
+          ],
+          "texture": "#tank"
+        },
+        "down": {
+          "uv": [
+            0.75,
+            3.5,
+            3.25,
+            4.0
+          ],
+          "texture": "#tank"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        5.5,
+        1.5
+      ],
+      "to": [
+        9,
+        7.5,
+        2.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5.25,
+            0.5,
+            7.5,
+            2.75
+          ],
+          "texture": "#tank"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.5,
+            8.75,
+            2.75
+          ],
+          "texture": "#tank"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.5,
+            8.75,
+            2.75
+          ],
+          "texture": "#tank"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.5,
+            8.75,
+            2.75
+          ],
+          "texture": "#tank"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.5,
+            8.75,
+            2.75
+          ],
+          "texture": "#tank"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            0.5,
+            8.75,
+            2.75
+          ],
+          "texture": "#tank"
+        }
+      }
+    }
+  ]
+}

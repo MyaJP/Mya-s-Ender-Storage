@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BWB",
+    "OCO",
+    "BPB"
+  ],
+  "key": {
+    "B": "minecraft:blaze_rod",
+    "W": "#minecraft:wool",
+    "O": "minecraft:obsidian",
+    "C": "minecraft:cauldron",
+    "P": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "myas_ender_storage:ender_tank",
+    "count": 1
+  }
+}

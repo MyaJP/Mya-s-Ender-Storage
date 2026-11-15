@@ -8,6 +8,11 @@ package jp.mya.myasenderstorage;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
+import net.fabricmc.fabric.api.transfer.v1.context.ContainerItemContext;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidStorage;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidStorageUtil;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
+import net.fabricmc.fabric.api.transfer.v1.storage.Storage;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -34,7 +39,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 
-/** 色でつながるエンダーチェストとエンダーポーチを追加する */
+/** 色でつながるエンダーチェスト・エンダータンク・エンダーポーチを追加する */
 public class MyasEnderStorage implements ModInitializer {
     public static final String MOD_ID = "myas_ender_storage";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -42,6 +47,8 @@ public class MyasEnderStorage implements ModInitializer {
     public static Block ENDER_CHEST;
     public static Item ENDER_CHEST_ITEM;
     public static Item ENDER_POUCH;
+    public static Block ENDER_TANK;
+    public static Item ENDER_TANK_ITEM;
 
     public static Identifier id(String path) {
         return Identifier.fromNamespaceAndPath(MOD_ID, path);
@@ -62,10 +69,20 @@ public class MyasEnderStorage implements ModInitializer {
         ENDER_CHEST_ITEM = Registry.register(BuiltInRegistries.ITEM, chestId, new EnderChestItem(ENDER_CHEST, chestProps));
         ENDER_POUCH = Registry.register(BuiltInRegistries.ITEM, pouchId, new EnderPouchItem(pouchProps));
 
+        Identifier tankId = id("ender_tank");
+        BlockBehaviour.Properties tankBlockProps = BlockBehaviour.Properties.of().strength(3.0F, 1200.0F).sound(SoundType.STONE);
+        Item.Properties tankProps = new Item.Properties();
+        tankBlockProps.setId(ResourceKey.create(Registries.BLOCK, tankId));
+        tankProps.setId(ResourceKey.create(Registries.ITEM, tankId)).useBlockDescriptionPrefix();
+        ENDER_TANK = Registry.register(BuiltInRegistries.BLOCK, tankId, new EnderTankBlock(tankBlockProps));
+        ENDER_TANK_ITEM = Registry.register(BuiltInRegistries.ITEM, tankId, new EnderChestItem(ENDER_TANK, tankProps));
+        // パイプなどからの出し入れ（個人用は誰の中身か決まらないので不可）
+        FluidStorage.SIDED.registerForBlocks((level, pos, state, blockEntity, side) -> EnderTankBlock.tankFor(level, state, null), ENDER_TANK);
+
         // クリエイティブのタブ（機能的ブロック、道具と実用品）に並べる
         ResourceKey<CreativeModeTab> functionalBlocks = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.withDefaultNamespace("functional_blocks"));
         ResourceKey<CreativeModeTab> tools = ResourceKey.create(Registries.CREATIVE_MODE_TAB, Identifier.withDefaultNamespace("tools_and_utilities"));
-        ItemGroupEvents.modifyEntriesEvent(functionalBlocks).register(entries -> entries.accept(ENDER_CHEST_ITEM));
+        ItemGroupEvents.modifyEntriesEvent(functionalBlocks).register(entries -> { entries.accept(ENDER_CHEST_ITEM); entries.accept(ENDER_TANK_ITEM); });
         ItemGroupEvents.modifyEntriesEvent(tools).register(entries -> entries.accept(ENDER_POUCH));
 
         UseBlockCallback.EVENT.register(MyasEnderStorage::onUseBlock);
@@ -75,16 +92,18 @@ public class MyasEnderStorage implements ModInitializer {
     }
 
     /**
-     * エンダーチェストを、物を持って右クリックしたとき。
+     * エンダーチェスト・エンダータンクを、物を持って右クリックしたとき。
      * ・染料で上の色パッド → その色に変える
      * ・ダイヤモンド → 個人用にする（スニーク＋素手で元に戻して、ダイヤモンドが返ってくる）
-     * ・スニーク＋エンダーポーチ → ポーチにそのチェストの色を記録する
+     * ・スニーク＋エンダーポーチ → ポーチにそのチェストの色を記録する（チェストだけ）
+     * ・バケツなど液体の入れ物 → タンクに入れる／タンクから汲む（タンクだけ）
      */
     private static InteractionResult onUseBlock(Player player, Level level, InteractionHand hand, BlockHitResult hit) {
         if (hand != InteractionHand.MAIN_HAND || player.isSpectator()) return InteractionResult.PASS;
         BlockPos pos = hit.getBlockPos();
         BlockState state = level.getBlockState(pos);
-        if (!(state.getBlock() instanceof EnderChestBlock)) return InteractionResult.PASS;
+        boolean tank = state.getBlock() instanceof EnderTankBlock;
+        if (!(state.getBlock() instanceof EnderChestBlock) && !tank) return InteractionResult.PASS;
         ItemStack stack = player.getItemInHand(hand);
 
         // 染料で色を変える
@@ -120,8 +139,17 @@ public class MyasEnderStorage implements ModInitializer {
             return InteractionResult.SUCCESS;
         }
 
+        // バケツなどでタンクに液体を出し入れする
+        if (tank && !stack.isEmpty() && FluidStorage.ITEM.find(stack, ContainerItemContext.withConstant(stack)) != null) {
+            if (!level.isClientSide()) {
+                Storage<FluidVariant> storage = EnderTankBlock.tankFor(level, state, player.getUUID());
+                if (storage != null) FluidStorageUtil.interactWithFluidStorage(storage, player, hand);
+            }
+            return InteractionResult.SUCCESS;
+        }
+
         // スニーク＋ポーチで色を記録する
-        if (stack.getItem() instanceof EnderPouchItem && player.isShiftKeyDown()) {
+        if (!tank && stack.getItem() instanceof EnderPouchItem && player.isShiftKeyDown()) {
             if (!level.isClientSide()) {
                 Frequency.of(state).writeTo(stack);
                 level.playSound(null, pos, SoundEvents.ENDER_EYE_DEATH, SoundSource.BLOCKS, 0.5F, 1.2F);
